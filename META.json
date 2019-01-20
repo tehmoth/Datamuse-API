@@ -1,0 +1,58 @@
+{
+   "abstract" : "Perl client to the Datamuse (https://www.datamuse.com/api/) API",
+   "author" : [
+      "James Wright <jwright@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "App::ModuleBuildTiny version 0.025",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Datamuse-API",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.034"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "App::ModuleBuildTiny" : "0.02"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Data::Perl" : "0",
+            "Future::HTTP" : "0",
+            "HTTP::Tiny" : "0",
+            "IO::Socket::SSL" : "1.56",
+            "JSON" : "0",
+            "Moo" : "0",
+            "MooX::HandlesVia" : "0",
+            "MooX::TypeTiny" : "0",
+            "Net::SSLeay" : "1.49",
+            "Sub::Quote" : "0",
+            "Type::Tiny" : "1.004000"
+         },
+         "suggests" : {
+            "AnyEvent" : "0",
+            "AnyEvent::HTTP" : "0",
+            "JSON::XS" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Datamuse::API" : {
+         "file" : "lib/Datamuse/API.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.01",
+   "x_serialization_backend" : "JSON::PP version 2.97001",
+   "x_spdx_expression" : "Artistic-1.0-Perl OR GPL-1.0-or-later"
+}
