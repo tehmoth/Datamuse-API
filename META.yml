@@ -16,8 +16,11 @@ provides:
   Datamuse::API:
     file: lib/Datamuse/API.pm
     version: '0.01'
+recommends:
+  JSON::XS: '0'
 requires:
   Data::Perl: '0'
+  Future: '0'
   Future::HTTP: '0'
   HTTP::Tiny: '0'
   IO::Socket::SSL: '1.56'
