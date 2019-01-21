@@ -35,7 +35,7 @@
             "HTTP::Tiny" : "0",
             "IO::Socket::SSL" : "1.56",
             "JSON" : "0",
-            "Moo" : "0",
+            "Moo" : "2",
             "MooX::HandlesVia" : "0",
             "MooX::TypeTiny" : "0",
             "Net::SSLeay" : "1.49",
